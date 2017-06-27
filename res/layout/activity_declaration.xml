@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="Declaration" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="98dp"
+        android:layout_marginTop="30dp"
+        android:text="DECLARATION" />
+     <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:oreintation="">
+ 
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginRight="33dp"
+        android:layout_marginTop="36dp"
+        android:text="I declare that statement made above are true, I agree to abide by the rules and conditions
+for the occupation of the quarters now in force and also such earns and conditions and rules ,
+which the Government may prescribed from the time to time in that regard." />
+    </LinearLayout>
+
+     <Button
+         android:id="@+id/button1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignRight="@+id/textView1"
+         android:layout_below="@+id/linearLayout1"
+         android:layout_marginRight="40dp"
+         android:layout_marginTop="81dp"
+         android:text="Submit" />
+
+</RelativeLayout>
